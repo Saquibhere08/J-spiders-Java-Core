@@ -31,14 +31,14 @@ public class MyDetails {
 		System.out.println("Enter the age: ");
 		 int age=sc.nextInt();
 		
-		
+		System.out.println(" ");
 		System.out.println("***************Details*************");
 		System.out.println("---------------------------------------------");
 		System.out.println("Name: "+name);
 		System.out.println("Gender(F/M): "+gender);
 		System.out.println("Age: "+age);
 		System.out.println("Email: "+email);
-		System.out.println("DOB: "+name);
+		System.out.println("DOB: "+dob);
 		System.out.println("Marital Status: "+marital);
 		System.out.println("Address: "+address);
 		
