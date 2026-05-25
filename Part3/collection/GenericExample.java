@@ -1,5 +1,5 @@
 package Collection;
-
+//ArrayList Example
 import java.util.ArrayList;
 import java.util.List;
 
