@@ -1,14 +1,14 @@
-package ObjectClass;
+package Object;
 
 public class Driver2 {
-	//Case 2 : Compared the add reference of the two objects
+//Case2: Checks ref but found different memory locations even though the values are same
 	public static void main(String[] args) {
-		Pen1 p1= new Pen1("Cello",10);
-		Pen1 p2= new Pen1("Cello",10);
-		System.out.println(p1);
-		System.out.println(p2);
-		System.out.println(p1==p2); //false
-		System.out.println(p1.equals(p2)); //false
-		System.out.println(p1.equals(p2)? "Same":"Different..");
+		Pen p1=new Pen("Cello",20);
+		Pen p2=new Pen("Cello",20);
+		
+		//checking
+		System.out.println(p1==p2);
+		System.out.println(p1.equals(p2));
+		
 	}
 }
